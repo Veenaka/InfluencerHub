@@ -1,0 +1,94 @@
+.button{
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    border-radius: 20px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: aquamarine;
+    margin-top: 10px;
+  }
+
+  .button1{
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    border-radius: 20px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color:red;
+    margin-top: 10px;
+  }
+
+  .profile{
+    padding:20px 40px 20px 40px;
+    align-items: center;
+    align-content: center;
+    margin:0px 40px 40px 40px;
+    background:#C7FFD8;
+  }
+
+  .image_img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  .card {
+    background-color:  #c7f6b6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    padding: 40px;
+    width: 70%;
+    margin: 0px 10px 5px 10px;
+}
+
+.profileImg {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+margin:50px 20px 20px 20px;
+padding: 0px;
+border:solid 10px;
+color: #3bb19b ;
+}
+
+.mainContainer{
+background:#c9fff5;
+margin: 0px auto 5% auto;
+padding: 10px;
+box-shadow: 0 5px 10px #3bb19b, 0 10px 10px #3bb19b;
+border-radius: 0px 0px 10px 15px;
+}
+
+.nameTagdiv{
+margin:auto;
+padding: 10px; 
+
+}
+
+.postContainer{
+margin: 30px auto auto auto;
+}
+
+.nameTag{
+padding: 10px;
+font-size: 50px;
+font-style: bold;
+color: #1b7061;
+margin: 20px;
+}
+
+.infoTag{
+  padding: 5px;
+font-size: 19px;
+font-style: bold;
+color: #1b7061;
+margin: auto 20px auto 30px;
+}

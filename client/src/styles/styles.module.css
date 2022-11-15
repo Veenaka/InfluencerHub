@@ -1,0 +1,312 @@
+.home {
+    margin: '50px';
+    padding: '0px 100px 0px 100px';
+}
+
+.menu_item {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.menu_item:hover {
+    color: #2b2b2b;
+}
+
+.background {
+    height: 100vh;
+    background-color: #ebebeb;
+}
+
+@keyframes AnimateBG {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.error_msg {
+    width: 370px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 14px;
+    background-color: #f34646;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.success_msg {
+    width: 370px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 14px;
+    background-color: #29c743;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.success_msg_permenant {
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #33c53f;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@keyframes showNotification {
+    0% {
+        display: none;
+        opacity: 1;
+    }
+    50% {
+        display: none;
+        opacity: 1;
+    }
+    100% {
+        display: block;
+        opacity: 0;
+    }
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 0px 20px 20px 20px;
+}
+
+
+.scrollbox {
+    height: 80vh;
+    overflow: auto;
+}
+
+.scrollbox_small{
+    height: 20vh;
+    width: 110%;
+    overflow: auto;
+}
+
+.scrollbox_nano{
+    height: 15vh;
+    width: 100%;
+    overflow: auto;
+}
+
+.container_main {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container_trans {
+    margin: auto;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    padding: 40px;
+    width: 70%;
+    margin: 0px 10px 5px 10px;
+}
+
+.notifications{
+    font-size: 40px;
+    font-weight: 600;
+    color: #46B47F;
+}
+
+.table{
+    border:0px solid white;
+}
+
+.labels{
+    font-size: 20px;
+    font-weight: 500px;
+    color:#1d1d1d;
+    text-decoration: none;
+}
+
+.labels:hover{
+    cursor: pointer;
+    color: #6DD19C;
+}
+
+
+.card_secondary{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    padding: 20px ;
+    width: 70%;
+    margin: auto;
+}
+
+.heading {
+    align-items: center;
+    padding: 10px 18% 5px 18%;
+    color: #1d1d1d;
+    font-weight: 400;
+}
+
+.heading_settings {
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    color: #e2e2e2;
+    font-weight: 400;
+}
+
+.record {
+    border-radius: 8px;
+    padding: 20px;
+    margin: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 255, 255);
+}
+
+.report_record{
+    width: 100px;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 255, 255);
+}
+
+.item {
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 255, 255);
+}
+
+.item:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid #46B47F;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.accordion {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.record:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid #46B47F;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.link_wrapper {
+    position: relative;
+    align-content: center;
+}
+
+.btnGreen {
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 25px;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    background-color: #46B47F;
+}
+
+.btnDisable {
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    background-color: #727272;
+}
+
+.btnRed {
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 25px;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    background-color: #eb1700;
+}
+
+.btnGreen:hover {
+    background-color: #6DD19C;
+    color:#2b2b2b;
+}
+
+.btnRed:hover {
+    background-color: #FF6656;
+}
+
+.btnGreen:active,
+.btnRed:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+.editAccount{
+    color:#2b2b2b;
+    font-style: bold;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 255, 255);
+}
+
+.editAccount:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid #46B47F;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.image1_img {
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .imageList_img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }

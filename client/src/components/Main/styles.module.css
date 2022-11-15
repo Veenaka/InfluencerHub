@@ -1,0 +1,123 @@
+body{
+	background-color: rgb(105, 219, 115);
+}
+
+.MenuTitle{
+	padding: 15px 80px 10px 20%;
+}
+
+.logout{
+	padding-left: 20px;
+}
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #3bb19b;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar h1 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.navbar h2{
+	color: white;
+	font-size: 25px;
+	margin-left: 150px;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.white_btn1 {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: #3bb19b;
+	color:white;
+	border-radius: 20px;
+	width: 200px;
+	height: 70px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin: 30px 55% 30px 45%;
+}
+
+.bellIcon{
+	color:white;
+	cursor: pointer;
+}
+
+.image1_img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+
+
+  .dropdown {
+	position: relative;
+	display: flex;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	top:60px;
+	right:0px;
+	width: 200px;
+	background-color: #3bb19b;
+	position: absolute;
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+li {
+	padding: 8px;
+}
+.menu_item{
+	padding: 8px 16px;
+	font-size: 15px;
+	font-weight: 300;
+	color:black;
+}
+.menu_item:hover{
+	background-color: #ffffff;
+	cursor: pointer;
+	border-radius:5px;
+}
+.button{
+	width:5px;
+	height:0px;
+	background-color:#3bb19b ;
+	border-radius:5px;
+	font-weight:bold;
+	color:white;
+}
+.button:before{
+	content:"";
+	position:absolute;
+	width:0px;
+	height:0px;
+	border: 10px solid;
+	border-radius:5px;
+	border-color: white transparent transparent transparent;
+	right:6px;
+	top:24px;
+}
